@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!-- Definição da linguaguem -->
+<html lang="pt-br">
+
+  <head>
+
+    <!-- Codificação de caracteres -->
+    <meta charset="utf-8">
+   
+    <!-- Atributo ViewPort: -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <!-- Descrições meta -->
+    <meta name="description" content="Home - Health Track">
+    <meta name="keywords" content="Saúde, Prontuário, Aplicativo, Exercícios">
+
+    <!-- Compatibilidade com IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+    <!-- Referencia Bootstrap (local) -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" title="Estilos principais">
+
+    <!-- Ícone da página -->
+    <link rel="icon" type="image/png" href="imagens/interface/favicon.png" />
+   
+    <!-- Título da página -->
+    <title>Health Track</title>
+
+  </head>
+
+  <body>
+    
+    <!-- Nav Desktop -->
+    <div class="NavDesktop">
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <a href="index.html">
+          <img src="imagens/interface/icon.png" class="DesktopNavIcon"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="atividades.html">Atividades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="saude.html">Saúde</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profissionais.html">Profissionais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="perfil.html">Perfil</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-primary" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </div>
+    <!-- Fim do Nav Desktop -->
+
+    <!-- Logo Mobile -->
+    <div class="NavMobile">
+      <nav class="nav" id="logo-mobile">
+        <div class="container-fluid">
+          <a href="index.html">
+          <img src="imagens/interface/icon.png" class="MobileNavIcon"/>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <!-- Fim do Logo Mobile -->
+
+    <!-- Container de conteúdo -->
+    <div class="container bg-transparent">
+      <div class="row align-items-center border-0 bg-transparent" id="row1">
+        <div class="col border-0" id="logo3">
+          <a href="index.html">
+            <img src="imagens/interface/logo.png" class="img-fluid" alt="Logo Health Track" id="logo"/>
+          </a>
+        </div>
+      </div>
+
+      <div class="row border-0 bg-transparent" id="login-row2">
+
+        <!-- cabeçalho do Login -->
+        <div class="col-md-2 border-0" id="cabeçalho">
+          <!-- 1 de 3 -->
+        </div>
+        <div class="col border-0" id="login-row">
+          <p class="title">Seja bem vindo,</p>
+        </div>
+        <div class="col-md-2 border-0">
+          <!-- 3 de 3 -->
+        </div>
+      </div>
+      
+      <!-- Login Form  -->
+      <div class="row bg-transparent">
+        
+        <div class="col-md-2">
+          <!-- 1 de 3 -->
+        </div>
+        <div class="col bg-light">
+          <div class="row">
+            <div class="col border-0">
+          <main class="form-signin">
+            <form>
+
+              <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email</label>
+              </div>
+              <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                <label for="floatingPassword">Senha</label>
+              </div>
+          
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Lembrar
+                </label>
+              </div>
+              <a class="btn btn-primary w-100" href="atividades.html" role="button" type="submit">Login</a>
+            <!-- será um <button type="submit" class="btn btn-lg btn-primary">Login</button> -->
+            </form>
+      <!-- Fim do Login Form-->      
+
+            <a href="#"><p>Esqueceu sua senha?</p></a>
+          </main>
+            </div>
+
+            <div class="col border-0">
+              <div class="row"><p class="text-center">- ou -</p></div>
+              <div class="row">
+
+                <main class="form-signin">
+                  <form>         
+                    <button class="w-100 btn btn-primary" type="submit" id="btn-login-1">
+                      <img src="imagens/login/facebook_logo.png" class="btn-login align-" alt="Logo do Facebook"/>
+                      Login com facebook   
+                    </button>
+                  </form>
+                </main>
+
+              </div>
+              <div class="row">
+                <main class="form-signin">
+                  <form>
+                    <button class="w-100 btn btn-primary" type="submit" id="btn-login-2">
+                      <img src="imagens/login/google_logo.png" class="btn-login" alt="Logo do Google"/>
+                      Login com google</button>
+                  </form>
+                </main>
+              </div>
+
+              <div class="row"> 
+                <p class="text-center">Não possui uma conta?</p> <a href="registro.html"><p class="text-center">Registre-se</p></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <!-- 3 of 3 -->
+        </div>
+      </div>
+
+      <!-- Rodapé do Login  -->
+      <div class="row bg-transparent">
+        <div class="col-md-2">
+          <!-- 1 de 3 -->
+        </div>
+
+        <div class="col border-0">
+          <!-- Marketing  -->
+          <p>Disponível na:</p>
+          <div class="row border-0 text-center">
+            <div class="col border-0">
+              <a href="index.html">
+                <img src="imagens/login/playstore.png" class="btn-store" alt="">
+              </a>
+            </div>
+
+            <div class="col border-0">
+              <a href="index.html">
+                <img src="imagens/login/apple.png" class="btn-store" alt="">
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-2">
+          <!-- 3 de 3 -->
+        </div>
+      </div>      
+    </div>
+    
+ <br>
+
+<!-- Footer -->
+ <div class="b-example-divider"></div>
+<div class="container-fluid" id="footer1">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="text-muted"> Todos os direitos reservados © 2022 Health Track, LTDA.</span>
+    </div>
+  </footer>
+</div>
+<!-- Fim do Footer -->
+    
+  <!-- NavBar Mobile -->
+  <nav class="nav-mobile">
+    <a href="index.html" class="bloc-icon">
+        <img src="imagens/btn/btn-home.png" alt="Home">
+    </a>
+	<a href="saude.html" class="bloc-icon">
+        <img src="imagens/btn/btn-saude.png" alt="Saúde">
+    </a>
+    <a href="atividades.html" class="bloc-icon">
+        <img src="imagens/btn/btn-atividades.png" alt="Atividades">
+    </a>
+    <a href="profissionais.html" class="bloc-icon">
+        <img src="imagens/btn/btn-profissionais.png" alt="Profissionais">
+    </a>
+    <a href="blog.html" class="bloc-icon">
+        <img src="imagens/btn/btn-blog.png" alt="Blog">
+    </a>
+	    <a href="perfil.html" class="bloc-icon">
+        <img src="imagens/btn/btn-perfil.png" alt="Perfil">
+    </a>
+  </nav>
+  <!-- Fim da NavBar Mobile -->
+
+    <!-- Referencia ao Bootstrap Bundle JS (local) -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>

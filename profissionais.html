@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<!-- Definição da linguaguem -->
+<html lang="pt-br">
+
+  <head>
+
+    <!-- Codificação de caracteres -->
+    <meta charset="utf-8">
+   
+    <!-- Atributo ViewPort: -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <!-- Descrições meta -->
+    <meta name="description" content="Home - Health Track">
+    <meta name="keywords" content="Saúde, Prontuário, Aplicativo, Exercícios">
+
+    <!-- Compatibilidade com IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+
+    <!-- Referencia Bootstrap (local) -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" title="Estilos principais">
+
+    <!-- Ícone da página -->
+    <link rel="icon" type="image/png" href="imagens/interface/favicon.png" />
+   
+    <!-- Título da página -->
+    <title>Health Track</title>
+
+  </head>
+
+  <body>
+    
+    <!-- Nav Desktop -->
+    <div class="NavDesktop">
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">
+        <a href="index.html">
+          <img src="imagens/interface/icon.png" class="DesktopNavIcon"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="atividades.html">Atividades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="saude.html">Saúde</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="profissionais.html">Profissionais</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="perfil.html">Perfil</a>
+            </li>
+            
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-primary" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    </div>
+    <!-- Fim do Nav Desktop -->
+
+    <!-- Logo Mobile -->
+    <div class="NavMobile">
+      <nav class="nav" id="logo-mobile">
+        <div class="container-fluid">
+          <a href="index.html">
+          <img src="imagens/interface/icon.png" class="MobileNavIcon"/>
+          </a>
+        </div>
+      </nav>
+    </div>
+    <!-- Fim do Logo Mobile -->
+
+    <!-- Container dos Profissionais -->
+	<div class="container page-container">
+		<div class="row gutters bg-transparent">
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
+				<figure class="user-card green">
+					<figcaption>
+						<img src="imagens/profissionais/medico.png" alt="Milestone Admin" class="profile">
+						<h5>Consultar Médicos</h5>
+						<ul class="contacts">
+							<li>
+								<a href="#">
+									Agendar consulta
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Buscar profissional
+								</a>
+							</li>
+						</ul>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
+				<figure class="user-card blue">
+					<figcaption>
+						<img src="imagens/profissionais/psicologo.png" alt="Milestone Admin" class="profile">
+						<h5>Consultar Psicólogos</h5>
+						<ul class="contacts">
+							<li>
+								<a href="#">
+									Agendar consulta
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Buscar profissional
+								</a>
+							</li>
+						</ul>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
+				<figure class="user-card pink">
+					<figcaption>
+						<img src="imagens/profissionais/nutricionista.png" alt="Milestone Admin" class="profile">
+						<h5>Consultar Nutricionistas</h5>
+						<ul class="contacts">
+							<li>
+								<a href="#">
+									Agendar consulta
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Buscar profissional
+								</a>
+							</li>
+						</ul>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
+				<figure class="user-card brown">
+					<figcaption>
+						<img src="imagens/profissionais/personal.png" alt="Milestone Admin" class="profile">
+						<h5>Consultar Personal Trainer</h5>
+						<ul class="contacts">
+							<li>
+								<a href="#">
+									Agendar consulta
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Buscar profissional
+								</a>
+							</li>
+						</ul>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
+				<figure class="user-card fb">
+					<figcaption>
+						<img src="imagens/profissionais/fisioterapeuta.png" alt="Milestone Admin" class="profile">
+						<h5>Consultar Fisioterapeutas</h5>
+						<ul class="contacts">
+							<li>
+								<a href="#">
+									Agendar consulta
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Buscar profissional
+								</a>
+							</li>
+						</ul>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-12">
+				<figure class="user-card green">
+					<figcaption>
+						<img src="imagens/profissionais/outros.png" alt="Milestone Admin" class="profile">
+						<h5>Outros profissionais</h5>
+						<ul class="contacts">
+							<li>
+								<a href="#">
+									Agendar consulta
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									Buscar profissional
+								</a>
+							</li>
+						</ul>
+					</figcaption>
+				</figure>
+			</div>
+			
+		</div>
+		</div>
+    <!-- Fim do Container dos Profissionais -->
+    
+ <br>
+
+<!-- Footer -->
+ <div class="b-example-divider"></div>
+<div class="container-fluid" id="footer1">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <span class="text-muted"> Todos os direitos reservados © 2022 Health Track, LTDA.</span>
+    </div>
+  </footer>
+</div>
+<!-- Fim do Footer -->
+    
+  <!-- NavBar Mobile -->
+  <nav class="nav-mobile">
+    <a href="index.html" class="bloc-icon">
+        <img src="imagens/btn/btn-home.png" alt="Home">
+    </a>
+	<a href="saude.html" class="bloc-icon">
+        <img src="imagens/btn/btn-saude.png" alt="Saúde">
+    </a>
+    <a href="atividades.html" class="bloc-icon">
+        <img src="imagens/btn/btn-atividades.png" alt="Atividades">
+    </a>
+    <a href="profissionais.html" class="bloc-icon">
+        <img src="imagens/btn/btn-profissionais.png" alt="Profissionais">
+    </a>
+    <a href="blog.html" class="bloc-icon">
+        <img src="imagens/btn/btn-blog.png" alt="Blog">
+    </a>
+	    <a href="perfil.html" class="bloc-icon">
+        <img src="imagens/btn/btn-perfil.png" alt="Perfil">
+    </a>
+  </nav>
+  <!-- Fim da NavBar Mobile -->
+
+    <!-- Referencia ao Bootstrap Bundle JS (local) -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+
+</html>
